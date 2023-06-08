@@ -1,4 +1,6 @@
 import logo from "./logo.svg";
+import logoViolet from "./logo-violet.svg";
+import logoPurple from "./logo-lightpurple.svg";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -62,4 +64,6 @@ export {
   tripguide,
   productbox,
   productboxlogo,
+  logoViolet,
+  logoPurple,
 };
