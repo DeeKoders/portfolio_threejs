@@ -25,6 +25,9 @@ import {
   threejs,
   productbox,
   productboxlogo,
+  autoparts,
+  hulu,
+  fastify,
 } from "../assets";
 
 export const navLinks = [
@@ -162,9 +165,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "AUTOPARTS",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based platform that allows users to search, book, and manage car services and car autoparts from various providers.",
     tags: [
       {
         name: "react",
@@ -179,16 +182,16 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: autoparts,
+    source_code_link: "https://github.com/DeeKoders/MERN_FYP",
   },
   {
-    name: "Job IT",
+    name: "HULU Clone",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Cloned Web based application called Hulu developed in Next.js.",
     tags: [
       {
-        name: "react",
+        name: "next.js",
         color: "blue-text-gradient",
       },
       {
@@ -196,33 +199,24 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "tailwindcss",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: hulu,
+    source_code_link: "https://github.com/DeeKoders/hulu-clone-nextjs",
   },
   {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    name: "Fastify Backend Server",
+    description: "A backend api server using fastify.",
     tags: [
       {
-        name: "nextjs",
+        name: "fastify",
         color: "blue-text-gradient",
       },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: fastify,
+    source_code_link: "https://github.com/DeeKoders/fastify-api",
   },
 ];
 
