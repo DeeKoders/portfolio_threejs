@@ -29,6 +29,7 @@ import {
   hulu,
   fastify,
   portfolio,
+  supabase,
 } from "../assets";
 
 export const navLinks = [
@@ -182,6 +183,10 @@ const projects = [
         name: "tailwind",
         color: "pink-text-gradient",
       },
+      {
+        name: "nodejs",
+        color: "orange-text-gradient",
+      },
     ],
     image: autoparts,
     source_code_link: "https://github.com/DeeKoders/MERN_FYP",
@@ -202,6 +207,10 @@ const projects = [
       {
         name: "tailwindcss",
         color: "pink-text-gradient",
+      },
+      {
+        name: "nodejs",
+        color: "orange-text-gradient",
       },
     ],
     image: hulu,
@@ -234,6 +243,31 @@ const projects = [
       },
     ],
     image: portfolio,
+    source_code_link: "https://github.com/DeeKoders/portfolio-website",
+  },
+  {
+    name: "Supabase Integration",
+    description:
+      "Created a small application in which supabase (Authentication, Database, Edge Functions) is integrated.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "nodejs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "supabase",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "vite",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: supabase,
     source_code_link: "https://github.com/DeeKoders/portfolio-website",
   },
 ];

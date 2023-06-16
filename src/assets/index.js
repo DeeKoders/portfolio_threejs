@@ -36,6 +36,8 @@ import productbox from "./productbox.png";
 import productboxlogo from "./productbox-logo.png";
 import portfolio from "./portfolio.png";
 import fastify from "./fastify.png";
+import supabase from "./supabase.png";
+
 export {
   logo,
   backend,
@@ -73,4 +75,5 @@ export {
   hulu,
   fastify,
   portfolio,
+  supabase,
 };
