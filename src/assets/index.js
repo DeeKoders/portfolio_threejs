@@ -34,7 +34,7 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import productbox from "./productbox.png";
 import productboxlogo from "./productbox-logo.png";
-
+import portfolio from "./portfolio.png";
 import fastify from "./fastify.png";
 export {
   logo,
@@ -72,4 +72,5 @@ export {
   autoparts,
   hulu,
   fastify,
+  portfolio,
 };

@@ -28,6 +28,7 @@ import {
   autoparts,
   hulu,
   fastify,
+  portfolio,
 } from "../assets";
 
 export const navLinks = [
@@ -217,6 +218,23 @@ const projects = [
     ],
     image: fastify,
     source_code_link: "https://github.com/DeeKoders/fastify-api",
+  },
+  {
+    name: "Portfolio Website",
+    description:
+      "Portfolio Website created using React.js which portrays all the details about a candidate.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "bootstrap",
+        color: "green-text-gradient",
+      },
+    ],
+    image: portfolio,
+    source_code_link: "https://github.com/DeeKoders/portfolio-website",
   },
 ];
 
