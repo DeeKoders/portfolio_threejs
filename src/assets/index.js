@@ -23,7 +23,7 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import hulu from "./hulu.png";
-
+import awanbirdscare from "./awanbirdscare.png";
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
@@ -37,6 +37,9 @@ import productboxlogo from "./productbox-logo.png";
 import portfolio from "./portfolio.png";
 import fastify from "./fastify.png";
 import supabase from "./supabase.png";
+
+import uzair from "./testimonials/uzair.jpeg";
+import hira from "./testimonials/hira.jpeg";
 
 export {
   logo,
@@ -75,5 +78,8 @@ export {
   hulu,
   fastify,
   portfolio,
+  awanbirdscare,
   supabase,
+  uzair,
+  hira,
 };

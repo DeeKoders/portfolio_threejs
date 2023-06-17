@@ -30,6 +30,9 @@ import {
   fastify,
   portfolio,
   supabase,
+  awanbirdscare,
+  uzair,
+  hira,
 } from "../assets";
 
 export const navLinks = [
@@ -141,19 +144,18 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "I have had the privilege of working with Danyal on several projects, and I have been consistently impressed by his talent, dedication, and attention to detail. He consistently goes above and beyond to ensure that projects are completed to the highest standards. Additionally, his positive attitude and excellent communication skills make him a pleasure to work with.",
+    name: "Sardar Uzair Abid",
+    designation: "Tech Lead",
+    company: "ProductBox",
+    image: uzair,
   },
   {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+    testimonial: "",
+    name: "Hira Kai",
+    designation: "Scrum Master",
+    company: "ProductBox",
+    image: hira,
   },
   {
     testimonial:
@@ -269,6 +271,27 @@ const projects = [
     ],
     image: supabase,
     source_code_link: "https://github.com/DeeKoders/portfolio-website",
+  },
+  {
+    name: "Awan Birds Care",
+    description:
+      "Web based Application for Birds awareness and information. Its a complete wensite with both backend and frontend.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "nodejs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: awanbirdscare,
+    source_code_link: "https://github.com/DeeKoders/awan-birds-care",
   },
 ];
 
