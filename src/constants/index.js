@@ -33,6 +33,7 @@ import {
   awanbirdscare,
   uzair,
   hira,
+  musadaq,
 } from "../assets";
 
 export const navLinks = [
@@ -151,7 +152,8 @@ const testimonials = [
     image: uzair,
   },
   {
-    testimonial: "",
+    testimonial:
+      "I have worked with Danyal for more than a year now , I found him highly skilled and a dedicated professional , he is a meticulous developer , he is adamant in solving any kind of complex problems. His friendly nature makes it easier to communicate with him. I highly recommend him for anyone to collaborate and work on any kind of project. ",
     name: "Hira Kai",
     designation: "Scrum Master",
     company: "ProductBox",
@@ -159,11 +161,11 @@ const testimonials = [
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "Mr. Danyal Ahmed is a talented individual. I have taught him different courses and he has performed really well in all of them. He has great experience in Mobile and Web development platforms. He has great writing skills as well.",
+    name: "Musadaq Mansoor",
+    designation: "Professor",
+    company: "IMSciences",
+    image: musadaq,
   },
 ];
 

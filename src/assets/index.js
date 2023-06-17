@@ -40,8 +40,10 @@ import supabase from "./supabase.png";
 
 import uzair from "./testimonials/uzair.jpeg";
 import hira from "./testimonials/hira.jpeg";
+import musadaq from "./testimonials/musadaq.jpeg";
 
 export {
+  musadaq,
   logo,
   backend,
   creator,
