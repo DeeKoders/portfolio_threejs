@@ -37,6 +37,7 @@ import {
 } from "../assets";
 
 export const navLinks = [
+  { id: "github", title: "Github" },
   {
     id: "about",
     title: "About",

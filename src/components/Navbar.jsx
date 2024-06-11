@@ -6,6 +6,7 @@ import { logoPurple, menu, close } from "../assets";
 const Navbar = () => {
   const [active, setActive] = useState("");
   const [toggle, setToggle] = useState(false);
+  const GITHUB_URL = "https://github.com/DeeKoders";
   return (
     <nav
       className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-20 bg-primary`}
@@ -39,7 +40,9 @@ const Navbar = () => {
                 } hover:text-white text-[18px] font-medium cursor-pointer `}
                 onClick={() => setActive(link.title)}
               >
-                <a href={`#${link.id}`}>{link.title}</a>
+                <a href={link.id === "github" ? GITHUB_URL : `#${link.id}`}>
+                  {link.title}
+                </a>
               </li>
             );
           })}
@@ -69,7 +72,9 @@ const Navbar = () => {
                       setActive(link.title);
                     }}
                   >
-                    <a href={`#${link.id}`}>{link.title}</a>
+                    <a href={link.id === "github" ? GITHUB_URL : `#${link.id}`}>
+                      {link.title}
+                    </a>
                   </li>
                 );
               })}
