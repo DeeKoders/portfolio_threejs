@@ -72,7 +72,10 @@ const Navbar = () => {
                       setActive(link.title);
                     }}
                   >
-                    <a href={link.id === "github" ? GITHUB_URL : `#${link.id}`}>
+                    <a
+                      target={link.id === "github" ? "_blank" : "_self"}
+                      href={link.id === "github" ? GITHUB_URL : `#${link.id}`}
+                    >
                       {link.title}
                     </a>
                   </li>
